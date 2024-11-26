@@ -79,7 +79,7 @@ def generate_email_content(recipient_data, anthropic_client):
         email_content = response.content[0].text
         
         # Append signature
-        email_content += f"\n\n---\nBest regards,\n\nName: Critical Future Ai Mailer\nPosition: Expert salesAI"
+        email_content += f"\n\n---\nBest regards,\n\nCritical Future Ai Mailer\nExpert salesAI"
         
         return email_content
     except Exception as e:
